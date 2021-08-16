@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(76, 161, 133);
+    box-sizing: border-box;
+}
+.container{
+    width: 35vw;
+    height: 35vh;
+    background-color: white;
+    margin: 15% auto;
+    border: 1px solid rgba(161, 161, 161, 0.781);
+    border-radius: 15px;
+    padding: 12px 10px;
+    box-sizing: border-box;
+}
+#relogio{
+    font-size: 3rem;
+}
+button:hover{
+    background-color:rgb(118, 180, 118);
+    color: white;
+    border: 1px solid rgb(118, 180, 118);
+    cursor: pointer
+}
+.pausa{
+    color: red;
+}
